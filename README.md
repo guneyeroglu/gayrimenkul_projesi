@@ -10,11 +10,11 @@ Projenin Back-End kısmının yazıldığı yer burası. Dizinde açılan terima
 
 ### `npm install`
 
-Bu aşama sonrasında node_modules klasörünün kurulumunu gerçekleşiyor. Yine aynı ekranda daha sonradan yazılması gereken:
+npm install yazıldıktan sonra node_modules klasörünün kurulumunu gerçekleşiyor. Yine aynı ekranda daha sonradan yazılması gereken:
 
 ### `pm2 start index.js`
 
-Bu aşama da back-end kısmını ayağı kaldırmaya yarıyor. DATABASE'n kurulmuş olması şartı unutulmamalı.
+pm2 start index.js yazımı da Back-End kısmını ayağı kaldırmaya yarıyor. DATABASE'in kurulmuş olması şartı unutulmamalı.
 
 ## INSAATAPP
 
@@ -22,9 +22,9 @@ Ana projemizin bulunduğu dizinimizdir. Dizinde açılan terminal veya cmd ekran
 
 ### `npm install`
 
-Bu aşama sonrasında node_modules klasörünün kurulumu gerçekleşiyor. Sonrasında projeyi tamamen ayağı kaldırmak için yazılması gereken:
+npm install yazımı sonrasında node_modules klasörünün kurulumu gerçekleşiyor. Sonrasında projeyi tamamen ayağı kaldırmak için yazılması gereken:
 
 ### `npm start`
 
-Projeyi çalıştırır. Otomatik olarak varsayılan tarayıcınızdan sitenin açılması gerekiyor.
-Açılmama durumunda ziyaret etmeniz gereken site: [http://localhost:3000](http://localhost:3000)
+npm start yazdıktan sonrasında projemizi ayağı kaldırır ve çalıştırır. Varsayılan tarayıcınızdan otomatik olarak sitenin açılması bekleniyor.
+Açılmama durumunda ise ziyaret etmeniz gereken site: [http://localhost:3000](http://localhost:3000)
